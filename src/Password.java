@@ -8,6 +8,8 @@ public class Password {
         System.out.println("Создайте пароль");
         String PW = sc.nextLine();
         System.out.println("Ок. Идем дальше.");
+
+        
         if (PW.length()<8||PW.length()>15) {
             do {
                 System.out.println("Длина пароля должна составлять от 8 до 15 символов");
